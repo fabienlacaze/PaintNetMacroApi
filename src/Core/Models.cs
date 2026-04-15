@@ -29,6 +29,9 @@ public sealed record DocumentInfo(
     double DpuX,
     double DpuY);
 
-public sealed record MacroStep(string Op, JsonElement Args);
+public sealed record MacroStep(string Op, JsonElement Args)
+{
+    public bool Disabled { get; init; }
+}
 
 public sealed record Macro(string Name, List<MacroStep> Steps);

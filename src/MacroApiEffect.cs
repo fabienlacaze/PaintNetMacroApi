@@ -48,9 +48,9 @@ public sealed class MacroApiEffect : Effect
 
 public sealed class MacroApiPluginSupportInfo : IPluginSupportInfo
 {
-    public string Author      => "PaintNetMacroApi";
+    public string Author      => "fabidou";
     public string Copyright   => "MIT";
     public string DisplayName => "Macro API";
     public Version Version    => typeof(MacroApiPluginSupportInfo).Assembly.GetName().Version!;
-    public Uri WebsiteUri     => new Uri("https://localhost/");
+    public Uri WebsiteUri     => new Uri("https://github.com/fabienlacaze/PaintNetMacroApi");
 }

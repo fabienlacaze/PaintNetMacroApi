@@ -15,6 +15,7 @@ public sealed class MacroPlayer
 
     public async Task<ApiResult> PlayStepAsync(MacroStep step)
     {
+        if (step.Disabled) return ApiResult.Ok();
         var space = step.Op.IndexOf(' ');
         if (space <= 0) return ApiResult.Bad($"bad op: {step.Op}");
         var method = step.Op[..space];
