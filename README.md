@@ -5,7 +5,7 @@ A plugin for **Paint.NET 5.x** that adds two long-missing features:
 1. A **macro recorder & player** — record what you do in Paint.NET, replay it later, pixel-perfect.
 2. A local **HTTP API** (http://127.0.0.1:8787) so any external tool (Python, curl, n8n, your own scripts) can drive Paint.NET.
 
-![Effects > Tools > Macro API](docs/screenshot-menu.png)
+![Macro API window](docs/screenshots/macro-window.png)
 
 ## Features
 
