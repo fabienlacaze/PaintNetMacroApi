@@ -6,3 +6,6 @@ obj/
 .idea/
 *.swp
 ~$*
+release/PaintNetMacroApi.dll
+release/LICENSE.txt
+*.zip
